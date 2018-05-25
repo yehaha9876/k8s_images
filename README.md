@@ -7,3 +7,4 @@
   k8s.gcr.io/kube-scheduler-amd64:v1.10.3 
   k8s.gcr.io/etcd-amd64:3.1.12 
   k8s.gcr.io/pause-amd64:3.1 
+  k8s.gcr.io/k8s-dns-sidecar-amd64:1.14.8
