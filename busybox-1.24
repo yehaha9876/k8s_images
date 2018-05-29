@@ -1,0 +1,2 @@
+FROM gcr.io/google_containers/busybox:1.24
+MAINTAINER huiqian2004@126.com
