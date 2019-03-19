@@ -1,0 +1,2 @@
+FROM gcr.io/jenkinsxio/builder-go:0.1.288
+MAINTAINER huiqian2004@126.com
