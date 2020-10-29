@@ -1,2 +1,0 @@
-FROM quay.io/coreos/kube-state-metrics:v1.3.0
-MAINTAINER huiqian2004@126.com

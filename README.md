@@ -1,10 +1,9 @@
-# k8s_images
+k8s.gcr.io/kube-apiserver:v1.19.3
+k8s.gcr.io/kube-controller-manager:v1.19.3
+k8s.gcr.io/kube-scheduler:v1.19.3
+k8s.gcr.io/kube-proxy:v1.19.3
+k8s.gcr.io/pause:3.2
+k8s.gcr.io/etcd:3.4.13-0
+k8s.gcr.io/coredns:1.7.0
 
-## add this images to aliyun
-
-  k8s.gcr.io/kube-apiserver-amd64:v1.10.3 
-  k8s.gcr.io/kube-controller-manager-amd64:v1.10.3 
-  k8s.gcr.io/kube-scheduler-amd64:v1.10.3 
-  k8s.gcr.io/etcd-amd64:3.1.12 
-  k8s.gcr.io/pause-amd64:3.1 
-  k8s.gcr.io/k8s-dns-sidecar-amd64:1.14.8
+cat README.md | grep -v grep |awk -F '/|:' '{print "echo "$0" > Dockerfile."$2}' |sh

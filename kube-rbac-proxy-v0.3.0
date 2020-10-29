@@ -1,2 +1,0 @@
-FROM quay.io/coreos/kube-rbac-proxy:v0.3.0
-MAINTAINER huiqian2004@126.com
