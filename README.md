@@ -6,4 +6,4 @@ k8s.gcr.io/pause:3.2
 k8s.gcr.io/etcd:3.4.13-0
 k8s.gcr.io/coredns:1.7.0
 
-cat README.md | grep -v grep |awk -F '/|:' '{print "echo "$0" > Dockerfile."$2}' |sh
+cat README.md | grep k8s.gcr.io | grep -v grep |awk -F '/|:' '{print "echo \"FROM "$0"\" > Dockerfile."$2}' |sh
