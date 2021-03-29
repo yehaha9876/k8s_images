@@ -1,2 +1,2 @@
-FROM quay.io/calico/ctl:v3.1.3
+FROM k8s.gcr.io/pause:3.2
 MAINTAINER huiqian2004@126.com
