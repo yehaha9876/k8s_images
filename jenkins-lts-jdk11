@@ -1,0 +1,2 @@
+FROM docker.io/jenkins/jenkins:lts-jdk11
+MAINTAINER huiqian2004@126.com
