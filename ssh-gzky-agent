@@ -1,0 +1,2 @@
+FROM jenkins/ssh-agent:latest
+RUN apt-get update && apt-get install -y maven openjdk-11-jdk git nodejs zip && apt-get -qy autoremove
